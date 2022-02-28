@@ -1,23 +1,3 @@
-## Gradient StyleGAN2 Template Repo
-
-This is a Github template repo you can use to create your own copy of the forked StyleGAN2 sample from NVLabs.
-The NVLabs sources are unchanged from the [original](https://github.com/NVlabs/stylegan2), except for this README paragraph, and the addition of the workflow yaml file.
-
-Once you create your own copy of this repo and add the repo to a project in your Paperspace Gradient account, you will be able to commit changes, and have the changes automatically validated by running a Gradient workflow using your updates.
-
-There are a few prerequisites you will need to have in place:
-1. Create a [Paperspace account](https://console.paperspace.com/signup?gradient=true) with a Gradient subscription that supports GPU machine access, and Gradient github integration.  
-2. You will need a defined Gradient dataset in your account named **demo-dataset**. You can go through the [Workflow Demo](https://docs.paperspace.com/gradient/get-started/quick-start#create-a-workflow) which will automatically create **demo-dataset** in your account.  You can learn more about Gradient datasets [here](https://docs.paperspace.com/gradient/data/data-overview/private-datasets-repository).
-3. Create your own copy of this repo using the "Use this template" button in Github.
-4. Create a github connected project by opening the Projects tab, pressing the "LINK A GITHUB REPO" button, and following the instructions on the next page.
-5. You next need to authorize Gradient to access your github account if you have not done so already.
-6. Once github permissions are set up for Gradient, return to the Gradient project page and select the repo you created in step 3.
-7. At this point Gradient will check that the Gradient github app is associated with the repo.  If it is not, you will need to return to github and add the Gradient app to the repo.
-8. After adding the Gradient app to the repo return to the projects tab again and complete the process of associating the repo with a project.  
-9. Now make a small change to the repo such as adding a blank line to the end of this README, then add, commit, and push your changes to your repo.
-10. After pushing a change you should see a new workflow created, and an initial workflow run, under your repo's project in the Gradient web interface.
-
-
 ## StyleGAN2 &mdash; Official TensorFlow Implementation
 
 ![Teaser image](./docs/stylegan2-teaser-1024x256.png)
